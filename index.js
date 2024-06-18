@@ -11,8 +11,11 @@ function include(file) {
 
 /* Include Many js files */
 
+//Reverse logic for all types
+include('reverse-all-types.js');
+
 //TO remove from String Array
 // include('remove-duplication-1.js');
 
 //TO remove from Array of objects
-include('remove-duplication-2.js');
+// include('remove-duplication-2.js');
