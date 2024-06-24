@@ -1,5 +1,10 @@
-// Strnig Reverse
-let txt = "JOHN";
+// ***** Strnig Reverse *****
+
+// STEPS:
+// 1. Loop the String in Reverse Order
+// 2. Concat the characters
+
+let txt = "JOHN Monkey Path";
 let revesedString = "";
 
 for (let i = txt.length; i >= 1; i--) {
