@@ -36,13 +36,13 @@ let strArray = [{
 }], reversedString = [], reverseString = [];
 
 strArray.reverse(); // Pre-defined JS method
-console.log(strArray);
+// console.log(strArray);
 
 // Method 1 - Just reverse the whole array values
 for (let i = strArray.length - 1; i >= 0; i--) {
     reversedString.push(strArray[i]);
 }
-console.log("reversedString", reversedString);
+// console.log("reversedString", reversedString);
 
 
 // Method 2 - Swap the array values
@@ -52,4 +52,33 @@ for (let i = 0; i < Math.floor(reverseString.length / 2); i++) {
     reverseString[i] = reverseString[reverseString.length - (1 + i)]
     reverseString[reverseString.length - (1 + i)] = temp;
 }
-console.log("reverseString 2", reverseString);
+// console.log("reverseString 2", reverseString);
+
+// Object Reverse
+let car = {
+    make: 'Toyota',
+    model: 'Camry',
+    year: 2021,
+    color: 'blue',
+    engine: {
+        type: 'V6',
+        horsepower: 301,
+    }
+};
+
+// Steps:
+// take object keys in array
+// loop them reverse
+// add those keys with that appropriate value in another obj
+
+let carObjKeys = Object.keys(car), reversedObj = {};
+
+for (let i = carObjKeys.length - 1; i >= 0; i--) {
+    let key = carObjKeys[i];
+    reversedObj[key] = car[key];
+}
+
+console.log("OriginalObj: ", car);
+
+console.log("reversedObj: ", reversedObj);
+
