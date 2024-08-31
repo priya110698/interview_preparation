@@ -11,18 +11,20 @@ function include(file) {
 //Missing brackets
 // include('missing-brackets.js');
 
-
 //Reverse logic for all types
 // include('reverse-all-types.js');
 
+//TO sum of prime number
+// include('sum-of-prime.js');
+
+// ****************************************************************************************************************** //
 //TO remove from String Array
-// include('remove-duplication-1.js');
+include('remove-duplication/remove-duplication-1.js');
 
 //TO remove from Array of objects
-// include('remove-duplication-2.js');
-// include('remove-duplication-3.js');
+// include('remove-duplication/remove-duplication-2.js');
+// include('remove-duplication/remove-duplication-3.js');
+// ****************************************************************************************************************** //
 
-//TO sum of prime number
-include('sum-of-prime.js');
 
 
