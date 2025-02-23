@@ -1,3 +1,4 @@
+
 function include(file) {
 	let script = document.createElement('script');
 	script.src = file;
@@ -8,6 +9,19 @@ function include(file) {
 }
 
 /* Include Many js files */
+
+// // Print this
+//     *
+//    * *
+//   * * * 
+//  * * * *
+// * * * * *
+include('star-printing/file-1.js');
+
+
+// ***************** JavaScript array series **********************//
+// include('array-methods/array-series-part-1.js');
+
 //Missing brackets
 // include('missing-brackets.js');
 
@@ -19,12 +33,14 @@ function include(file) {
 
 // ****************************************************************************************************************** //
 //TO remove from String Array
-include('remove-duplication/remove-duplication-1.js');
+// include('remove-duplication/remove-duplication-1.js');
 
 //TO remove from Array of objects
 // include('remove-duplication/remove-duplication-2.js');
 // include('remove-duplication/remove-duplication-3.js');
 // ****************************************************************************************************************** //
 
+// **************** PALINDROME **********************************//
+//include('palindrome/palindrome-1.js');
 
 
